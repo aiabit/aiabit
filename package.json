@@ -20,6 +20,8 @@
     "@trpc/client": "^10.43.6",
     "@trpc/next": "^10.43.6",
     "@trpc/react-query": "^10.43.6",
+    "@ant-design/cssinjs": "1.17.2",
+    "@ant-design/icons": "^5.2.6",
     "@trpc/server": "^10.43.6",
     "@vercel/analytics": "^1.1.1",
     "antd": "^5.11.2",
@@ -32,6 +34,7 @@
     "next-contentlayer": "^0.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "dayjs": "^1.11.10",
     "superjson": "^1.13.3",
     "zod": "^3.22.4"
   },
