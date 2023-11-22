@@ -12,10 +12,11 @@ export default function SecondaryNav() {
     if (links.length < 1) return
     const addActive = (i: number) => {
       const link = links[i] ? links[i] : links[0]
-      link.classList.add('scrollspy-active')
+      link?.classList.add('scrollspy-active')
     }
     const removeActive = (i: number) => {
-      links[i].classList.remove('scrollspy-active')
+      if (!links[i]) return
+      links[i]?.classList.remove('scrollspy-active')
     }
     const removeAllActive = () => [...Array(targets.length).keys()].forEach((link) => removeActive(link))
     const targetMargin = 100

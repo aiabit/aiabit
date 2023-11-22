@@ -16,6 +16,10 @@ const config = {
     config.infrastructureLogging = { level: "error" };
     return config;
   },
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  experimental: {
+    mdxRs: true,
+  },
 };
 
 export default withContentlayer(config);
