@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import type { AnchorProps } from "antd";
 import { Anchor as BaseAnchor } from "antd";
 
-import menus from "./route.json";
+import menus from "../../[[...slug]]/route.json";
 
 export default function Anchor() {
   const pathname = usePathname();
